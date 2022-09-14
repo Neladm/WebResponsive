@@ -1,0 +1,147 @@
+body{
+    background-image:url(imagen/fondo\ musica.png) ;
+    
+  
+}
+
+h1{ letter-spacing: 2px;
+  color: blueviolet;   
+}
+
+#contenedor{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;   
+    width: 960px;
+  	height: 500px;
+  	margin-left: auto;
+  	margin-right: auto;
+  
+    background-color: rgb(158, 81, 165);
+    text-align: center;
+
+}
+
+
+.navegacion {
+  width: 960px;
+  height: 300px auto;
+  background-color: purple;
+}
+.navegacion ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}   
+.menu li {
+  position: relative;
+  display: inline-block;
+}   
+.menu li a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.menu li a:hover{
+  background-color: plum;
+}  
+.submenu{
+  position: absolute;
+  color: black;
+  width: 100%;
+  display: none;
+}
+.submenu li a {
+  display: block;
+  padding: 5px;
+  color: rgb(218, 28, 186);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+}
+.menu li:hover .submenu {
+  display: block;
+}
+
+
+ #Shows{       
+  
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: oblique;
+    background-color: black;
+    width: 900px;
+  	height: 155px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: auto;
+    color: fuchsia;
+    text-align: center;
+    
+    
+    
+    
+}
+
+
+#ul.proximamente{
+   list-style: none;
+}
+ ul.proximamente li {
+  display:grid ;
+  }    
+
+ #artistas { 
+  width: 910px;
+  height: 600px ;
+    
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  
+
+  
+  
+ 
+  
+  }
+     
+ #base{
+        background-color: rgb(184, 52, 162);
+        width: 900px;
+        height: auto;
+        margin: auto;
+        padding: auto;
+       
+      }
+  ol{ color: aliceblue;}
+    
+  p{color: beige;
+  text-align: justify;}
+  h1{ color: black;
+  text-align: center;}  
+ 
+#articulos{
+        background-color: rgb(184, 52, 162);
+        width: 900px;
+        height: auto;
+        margin: auto;
+        padding: auto;
+}
+
+         
+          
+ footer {
+     background-color: black ;
+     text-align: center;
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+
+h1{ color: aliceblue;
+text-align: center;}
+.Volver {
+  color: red;
+  
+
+}

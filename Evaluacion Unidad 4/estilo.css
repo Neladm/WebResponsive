@@ -1,0 +1,138 @@
+body{
+    background-image:url(imagen/fondo\ musica.png) ;
+     
+    }
+h1{ letter-spacing: 2px;
+  color: blueviolet;
+  
+   
+}
+#contenedor{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+   
+    width: 960px;
+  	height: 300px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 30px;
+    margin-bottom: 30px;
+    
+  }
+
+#cabecera{
+      background-color: rgb(158, 81, 165);
+      text-align: center;
+
+}
+
+
+#ul.menu {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+  }
+  ul.barrademenu li {
+  display: inline;
+  
+  
+ }
+ ul.barrademenu li a {
+  width: 180px;
+  height: 50px;
+  background-color: rgb(99, 34, 219);
+  border: 2px rgb(128, 0, 100) solid;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  margin-left: 1px;
+  margin-right: 1px;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  
+  color: rgb(243, 236, 236);
+  text-decoration: none;
+  
+  
+}
+
+ #Shows{       
+  
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style: oblique;
+    background-color: black;
+    width: 900px;
+  	height: 155px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: auto;
+    color: fuchsia;
+    text-align: center;
+    
+    
+    
+    
+}
+
+
+#ul.proximamente{
+   list-style: none;
+}
+ ul.proximamente li {
+  display:grid ;
+  }    
+
+ #artistas { 
+  width: 910px;
+  height: 600px ;
+    
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  
+
+  
+  
+ 
+  
+  }
+     
+ #base{
+        background-color: rgb(184, 52, 162);
+        width: 900px;
+        height: auto;
+        margin: auto;
+        padding: auto;
+       
+      }
+  ol{ color: aliceblue;}
+    
+  p{color: beige;
+  text-align: justify;}
+  h1{ color: black;
+  text-align: center;}  
+ 
+      
+
+         
+          
+ #pie {
+     background-color: black ;
+     text-align: center;
+     margin-top: 10px;
+     margin-bottom: 10px;
+
+}
+h1{ color: aliceblue;
+text-align: center;}
+Volver {
+  color: red;
+  
+
+  
+  
+
+}
